@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/checkingTheString.h"
+#include "include/checkingTheString.h"
 
 int main() {
     std::string str;

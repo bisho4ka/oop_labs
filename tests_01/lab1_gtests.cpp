@@ -7,13 +7,13 @@ TEST(tests_lab1, EmptyString) {
   EXPECT_EQ(result, true);
 }
 
-TEST(tests_lab1, CorrectString) {
+TEST(tests_lab1, CorrectString_1) {
   std::string str = "()()()";
   bool result = checkingTheString(str);
   EXPECT_EQ(result, true);
 }
 
-TEST(tests_lab1, CorrectString) {
+TEST(tests_lab1, CorrectString_2) {
   std::string str = "(()()(()))";
   bool result = checkingTheString(str);
   EXPECT_EQ(result, true);
