@@ -27,7 +27,7 @@ TEST(tests_lab1, IncorrectString) {
 
 TEST(tests_lab1, LongString) {
   std::string str = "((()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()))";
-  ASSERT_THROW(checkingTheString(str), std::invalid_argument);
+  ASSERT_THROW(checkingTheString(str), std::length_error);
 }
 
 TEST(tests_lab1, OtherChar) {
