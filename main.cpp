@@ -13,6 +13,9 @@ int main() {
     catch(std::invalid_argument error) {
         std::cout << "Произошла ошибка: " << error.what() << std::endl;
     }
+    catch(std::length_error error) {
+        std::cout << "Произошла ошибка: " << error.what() << std::endl;
+    }
 
     return 0;
 }
