@@ -130,7 +130,7 @@ bool Octal::operator<(const Octal &other)
     return true;
 }
 
-bool Octal::operator==(const Octal &other)
+bool Octal::operator==(const Octal &other) const
 {
     if (size == other.size)
     {

@@ -19,7 +19,7 @@ public:
 
     bool operator>(const Octal &other); // оператор сравнения >
     bool operator<(const Octal &other); // оператор сравнения <
-    bool operator==(const Octal &other); // оператор сравнения ==
+    bool operator==(const Octal &other) const; // оператор сравнения ==
 
     Octal& operator=(const Octal &other); // оператор присваивания
     std::ostream &print(std::ostream &str);
