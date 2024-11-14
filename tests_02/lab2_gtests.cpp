@@ -2,14 +2,14 @@
 #include "../include/Octal.h"
 
 TEST(tests_lab2, construct_1) {
-    Octal num_1("123456");
+    Octal num_1("3333");
     Octal num_2(4, '3');
     ASSERT_EQ(num_1, num_2);
 }
 
 TEST(tests_lab2, construct_2) {
     Octal num_1("20");
-    Octal num_2 = {'2', '0', '5'};
+    Octal num_2 = {'2', '0'};
     ASSERT_EQ(num_1, num_2);
 }
 
