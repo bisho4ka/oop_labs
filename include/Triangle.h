@@ -14,12 +14,12 @@ public:
     Triangle& operator=(const Triangle& other);
     Triangle& operator=(Triangle&& other) noexcept;    
     
-    void print(std::ostream& os) const;
+    void print(std::ostream& os) const override;
     
     bool operator==(const Triangle& other) const;
 
-    operator double() const;
-    Point GeomCenter() const;
+    operator double() const override;
+    Point GeomCenter() const override;
 
     friend std::istream& operator>>(std::istream& is, Triangle& triangle);
 private:
