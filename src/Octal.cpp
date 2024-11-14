@@ -160,7 +160,7 @@ Octal& Octal::operator=(const Octal& other)
 
 std::ostream &Octal::print(std::ostream &str)
 {
-    for (size_t i = size; i--;)
+    for (size_t i = 0; i < size; i++)
         str << data[i];
     
     str << std::endl;
