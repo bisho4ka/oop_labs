@@ -6,6 +6,7 @@ Octal::Octal(const size_t &n, unsigned char t)
 {
     if (!('0' <= t <= '7')) 
         throw std::invalid_argument("not octal system");
+        
     size = n;
     data = new unsigned char[n];
     for (size_t i = 0; i < n; i++) 
