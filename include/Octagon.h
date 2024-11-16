@@ -14,12 +14,12 @@ public:
     Octagon& operator=(const Octagon& other);
     Octagon& operator=(Octagon&& other) noexcept;    
     
-    void print(std::ostream& os) const;
+    void print(std::ostream& os) const override;
     
     bool operator==(const Octagon& other) const;
 
-    operator double() const;
-    Point GeomCenter() const;
+    operator double() const override;
+    Point GeomCenter() const override;
 
     friend std::istream& operator>>(std::istream& is, Octagon& octagon);
 private:
