@@ -1,1 +1,0 @@
-/usr/bin/c++  -Werror=maybe-uninitialized -fcoroutines CMakeFiles/tests.dir/tests_07/lab7_gtests.cpp.o -o tests  liblab7_lib.a lib/libgtest_main.a lib/libgtest.a -lpthread 

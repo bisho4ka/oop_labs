@@ -1,1 +1,0 @@
-/usr/bin/c++  -Werror=maybe-uninitialized -fcoroutines CMakeFiles/lab7_exe.dir/main.cpp.o -o lab7_exe  liblab7_lib.a -lpthread 
