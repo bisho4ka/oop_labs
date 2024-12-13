@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblab7_lib.a CMakeFiles/lab7_lib.dir/src/observer.cpp.o CMakeFiles/lab7_lib.dir/src/factory.cpp.o CMakeFiles/lab7_lib.dir/src/visitor.cpp.o CMakeFiles/lab7_lib.dir/src/npc.cpp.o CMakeFiles/lab7_lib.dir/src/knight.cpp.o CMakeFiles/lab7_lib.dir/src/elf.cpp.o CMakeFiles/lab7_lib.dir/src/druid.cpp.o CMakeFiles/lab7_lib.dir/src/coroutine.cpp.o CMakeFiles/lab7_lib.dir/src/logger.cpp.o
+/usr/bin/ranlib liblab7_lib.a
